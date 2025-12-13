@@ -26,13 +26,12 @@ The backend simulates a **real‑world e‑commerce system** with:
 ## 🧠 Architecture (High Level)
 
 ```
-Client (Tests / Frontend)
+Test Client (pytest / requests / curl)
         ↓
      REST API (FastAPI)
         ↓
-   Business Logic
-        ↓
-     Database
+   In-memory / mock data (lists, dicts, JSON)
+
 ```
 
 * Backend exposes **REST endpoints**
