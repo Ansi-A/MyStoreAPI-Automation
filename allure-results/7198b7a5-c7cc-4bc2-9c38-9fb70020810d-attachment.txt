@@ -1,0 +1,1 @@
+[32mINFO    [0m tests.test_carts.test_carts_crud:test_carts_crud.py:41 Cart with id deleted successfully

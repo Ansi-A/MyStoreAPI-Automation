@@ -1,0 +1,5 @@
+2025-12-14 01:39:57,867 - INFO - user created successfully
+2025-12-14 01:39:57,871 - INFO - user login successfully
+2025-12-14 01:39:57,878 - INFO - user fetched by successfully
+2025-12-14 01:39:57,886 - INFO - user updated successfully
+2025-12-14 01:39:57,894 - INFO - user deleted successfully

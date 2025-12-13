@@ -1,0 +1,26 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": { "type": "integer" },
+      "user_id": { "type": "integer" },
+      "status": { "type": "string", "enum": ["active", "completed", "cancelled"] },
+      "items": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "product_id": { "type": "integer" },
+            "quantity": { "type": "integer" },
+            "price": { "type": "number" }
+          },
+          "required": ["product_id", "quantity", "price"]
+        }
+      },
+      "total_amount": { "type": "number" },
+      "created_at": { "type": "string", "format": "date-time" }
+    },
+    "required": ["id", "user_id", "status", "items", "total_amount", "created_at"]
+  }
+}

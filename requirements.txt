@@ -1,0 +1,9 @@
+requests
+jsonpath-ng
+lxml
+jsonschema
+faker
+pytest
+pytest-order
+pytest-dependency
+allure-pytest

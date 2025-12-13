@@ -1,0 +1,7 @@
+[32mINFO    [0m tests.test_integration.test_e2e_flow:test_e2e_flow.py:42 User Created Successfully
+[32mINFO    [0m tests.test_integration.test_e2e_flow:test_e2e_flow.py:48 User Logged in Successfully
+[32mINFO    [0m tests.test_integration.test_e2e_flow:test_e2e_flow.py:53 Product Created Successfully
+[32mINFO    [0m tests.test_integration.test_e2e_flow:test_e2e_flow.py:59 Cart Created Successfully
+[32mINFO    [0m tests.test_integration.test_e2e_flow:test_e2e_flow.py:65 Product add to Cart Successfully
+[32mINFO    [0m tests.test_integration.test_e2e_flow:test_e2e_flow.py:74 Order Created Successfully
+[32mINFO    [0m tests.test_integration.test_e2e_flow:test_e2e_flow.py:80 Order details fetched successfully

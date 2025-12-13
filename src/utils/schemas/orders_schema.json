@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "integer" },
+          "user_id": { "type": "integer" },
+          "cart_id": { "type": "integer" },
+          "status": { "type": "string", "enum": ["pending", "in shipment", "delivered"] },
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "product_id": { "type": "integer" },
+                "quantity": { "type": "integer" },
+                "price_at_purchase": { "type": "number" }
+              },
+              "required": ["product_id", "quantity", "price_at_purchase"]
+            }
+          },
+          "total": { "type": "number" },
+          "shipping_address": { "type": "string" },
+          "payment_method": { "type": "string" },
+          "created_at": { "type": "string", "format": "date-time" }
+        },
+        "required": ["id", "user_id", "cart_id", "status", "items", "total", "shipping_address", "payment_method", "created_at"]
+      }
+    },
+    "total": { "type": "integer" },
+    "page": { "type": "integer" },
+    "limit": { "type": "integer" },
+    "total_pages": { "type": "integer" }
+  },
+  "required": ["items", "total", "page", "limit", "total_pages"]
+}

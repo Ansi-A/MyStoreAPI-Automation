@@ -1,0 +1,1 @@
+[32mINFO    [0m tests.test_products.test_products_crud:test_products_crud.py:33 Product created successfully

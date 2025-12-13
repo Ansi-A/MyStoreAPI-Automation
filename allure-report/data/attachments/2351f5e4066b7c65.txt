@@ -1,0 +1,2 @@
+2025-12-14 01:39:58,190 - INFO - All Carts are fetched successfully
+2025-12-14 01:39:58,225 - INFO - Carts Schema Validated

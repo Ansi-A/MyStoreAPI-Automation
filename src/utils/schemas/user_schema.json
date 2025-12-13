@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": { "type": "integer" },
+      "username": { "type": "string" },
+      "email": { "type": "string", "format": "email" },
+      "role": { "type": "string", "enum": ["customer", "admin"] },
+      "is_active": { "type": "boolean" },
+      "created_at": { "type": "string", "format": "date-time" }
+    },
+    "required": ["id", "username", "email", "role", "is_active", "created_at"]
+  }
+}

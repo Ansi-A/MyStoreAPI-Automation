@@ -1,0 +1,2 @@
+[32mINFO    [0m tests.test_orders.test_orders_crud:test_orders_crud.py:21 All orders fetched successfully
+[32mINFO    [0m tests.test_orders.test_orders_crud:test_orders_crud.py:23 Order Schema verified successfully

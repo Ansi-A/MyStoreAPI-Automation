@@ -1,0 +1,1 @@
+2025-12-14 01:39:58,301 - INFO - Item added to cart successfully

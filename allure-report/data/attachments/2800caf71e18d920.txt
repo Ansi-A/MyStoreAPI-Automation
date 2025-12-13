@@ -1,0 +1,1 @@
+[32mINFO    [0m tests.test_auth.test_signup:test_signup.py:16 signup Completed

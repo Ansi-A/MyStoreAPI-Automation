@@ -1,0 +1,2 @@
+[32mINFO    [0m tests.test_carts.test_carts_crud:test_carts_crud.py:18 All Carts are fetched successfully
+[32mINFO    [0m tests.test_carts.test_carts_crud:test_carts_crud.py:22 Carts Schema Validated

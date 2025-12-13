@@ -1,0 +1,133 @@
+2025-12-12 21:02:28,882 - INFO - New Cart created successfully
+2025-12-12 21:04:09,794 - INFO - Cart with id retrieved successfully
+2025-12-12 21:04:31,211 - INFO - Cart with id retrieved successfully
+2025-12-12 21:04:51,948 - INFO - Cart with id deleted successfully
+2025-12-12 21:11:40,374 - INFO - Item added to cart successfully
+2025-12-12 21:11:58,058 - INFO - All Carts are fetched successfully
+2025-12-12 21:13:41,280 - INFO - All Carts are fetched successfully
+2025-12-12 21:13:50,945 - INFO - All Carts are fetched successfully
+2025-12-12 21:14:55,727 - INFO - All Carts are fetched successfully
+2025-12-12 21:14:55,738 - INFO - Carts Schema Validated
+2025-12-12 21:16:08,334 - INFO - All Carts are fetched successfully
+2025-12-12 21:16:08,348 - INFO - Carts Schema Validated
+2025-12-13 19:30:01,966 - INFO - All Carts are fetched successfully
+2025-12-13 19:30:01,981 - INFO - Carts Schema Validated
+2025-12-13 19:30:02,002 - INFO - New Cart created successfully
+2025-12-13 19:30:02,011 - INFO - Cart with id retrieved successfully
+2025-12-13 19:30:02,023 - INFO - Cart with id deleted successfully
+2025-12-13 19:30:02,065 - INFO - Item added to cart successfully
+2025-12-13 19:31:07,490 - INFO - All Carts are fetched successfully
+2025-12-13 19:31:07,503 - INFO - Carts Schema Validated
+2025-12-13 19:31:07,517 - INFO - New Cart created successfully
+2025-12-13 19:31:07,526 - INFO - Cart with id retrieved successfully
+2025-12-13 19:31:07,535 - INFO - Cart with id deleted successfully
+2025-12-13 19:31:07,562 - INFO - Item added to cart successfully
+2025-12-13 19:33:21,897 - INFO - All Carts are fetched successfully
+2025-12-13 19:33:21,915 - INFO - Carts Schema Validated
+2025-12-13 19:33:21,937 - INFO - New Cart created successfully
+2025-12-13 19:33:21,946 - INFO - Cart with id retrieved successfully
+2025-12-13 19:33:21,955 - INFO - Cart with id deleted successfully
+2025-12-13 19:33:32,517 - INFO - All Carts are fetched successfully
+2025-12-13 19:33:32,536 - INFO - Carts Schema Validated
+2025-12-13 19:33:32,556 - INFO - New Cart created successfully
+2025-12-13 19:33:32,565 - INFO - Cart with id retrieved successfully
+2025-12-13 19:33:32,574 - INFO - Cart with id deleted successfully
+2025-12-13 19:33:37,598 - INFO - All Carts are fetched successfully
+2025-12-13 19:33:37,616 - INFO - Carts Schema Validated
+2025-12-13 19:33:37,631 - INFO - New Cart created successfully
+2025-12-13 19:33:37,641 - INFO - Cart with id retrieved successfully
+2025-12-13 19:33:37,650 - INFO - Cart with id deleted successfully
+2025-12-13 19:33:37,673 - INFO - Item added to cart successfully
+2025-12-13 21:25:29,268 - INFO - All Carts are fetched successfully
+2025-12-13 21:25:29,295 - INFO - Carts Schema Validated
+2025-12-13 21:25:29,327 - INFO - New Cart created successfully
+2025-12-13 21:25:29,342 - INFO - Cart with id retrieved successfully
+2025-12-13 21:25:29,357 - INFO - Cart with id deleted successfully
+2025-12-13 21:25:29,399 - INFO - Item added to cart successfully
+2025-12-13 21:30:46,999 - INFO - All Carts are fetched successfully
+2025-12-13 21:30:47,027 - INFO - Carts Schema Validated
+2025-12-13 21:30:47,048 - INFO - New Cart created successfully
+2025-12-13 21:30:47,065 - INFO - Cart with id retrieved successfully
+2025-12-13 21:30:47,081 - INFO - Cart with id deleted successfully
+2025-12-13 21:47:56,822 - INFO - All Carts are fetched successfully
+2025-12-13 21:47:56,853 - INFO - Carts Schema Validated
+2025-12-13 21:47:56,938 - INFO - Cart with id retrieved successfully
+2025-12-13 21:47:56,950 - INFO - Cart with id deleted successfully
+2025-12-13 22:11:48,383 - INFO - All Carts are fetched successfully
+2025-12-13 22:11:48,403 - INFO - Carts Schema Validated
+2025-12-13 22:11:48,470 - INFO - Cart with id retrieved successfully
+2025-12-13 22:11:48,478 - INFO - Cart with id deleted successfully
+2025-12-13 22:15:12,010 - INFO - All Carts are fetched successfully
+2025-12-13 22:15:12,035 - INFO - Carts Schema Validated
+2025-12-13 22:15:12,097 - INFO - Cart with id retrieved successfully
+2025-12-13 22:15:12,105 - INFO - Cart with id deleted successfully
+2025-12-13 22:23:37,841 - INFO - All Carts are fetched successfully
+2025-12-13 22:23:37,865 - INFO - Carts Schema Validated
+2025-12-13 22:23:37,983 - INFO - Cart with id retrieved successfully
+2025-12-13 22:23:37,990 - INFO - Cart with id deleted successfully
+2025-12-13 23:28:47,374 - INFO - All Carts are fetched successfully
+2025-12-13 23:28:47,409 - INFO - Carts Schema Validated
+2025-12-13 23:28:47,427 - INFO - New Cart created successfully
+2025-12-13 23:28:47,439 - INFO - Cart with id retrieved successfully
+2025-12-13 23:28:47,452 - INFO - Cart with id deleted successfully
+2025-12-14 00:52:19,774 - INFO - All Carts are fetched successfully
+2025-12-14 00:52:19,805 - INFO - Carts Schema Validated
+2025-12-14 00:52:19,889 - INFO - Cart with id retrieved successfully
+2025-12-14 00:52:19,901 - INFO - Cart with id deleted successfully
+2025-12-14 01:02:22,178 - INFO - All Carts are fetched successfully
+2025-12-14 01:02:22,205 - INFO - Carts Schema Validated
+2025-12-14 01:12:10,436 - INFO - All Carts are fetched successfully
+2025-12-14 01:12:10,457 - INFO - Carts Schema Validated
+2025-12-14 01:12:10,512 - INFO - Cart with id retrieved successfully
+2025-12-14 01:12:10,520 - INFO - Cart with id deleted successfully
+2025-12-14 01:12:59,794 - INFO - All Carts are fetched successfully
+2025-12-14 01:12:59,815 - INFO - Carts Schema Validated
+2025-12-14 01:12:59,837 - INFO - Cart with id retrieved successfully
+2025-12-14 01:12:59,847 - INFO - Cart with id deleted successfully
+2025-12-14 01:13:06,523 - INFO - All Carts are fetched successfully
+2025-12-14 01:13:06,548 - INFO - Carts Schema Validated
+2025-12-14 01:13:06,615 - INFO - Cart with id retrieved successfully
+2025-12-14 01:13:06,624 - INFO - Cart with id deleted successfully
+2025-12-14 01:19:48,527 - INFO - New Cart created successfully
+2025-12-14 01:19:55,087 - INFO - All Carts are fetched successfully
+2025-12-14 01:19:55,109 - INFO - Carts Schema Validated
+2025-12-14 01:19:55,120 - INFO - New Cart created successfully
+2025-12-14 01:19:55,128 - INFO - Cart with id retrieved successfully
+2025-12-14 01:19:55,140 - INFO - Cart with id deleted successfully
+2025-12-14 01:19:55,160 - INFO - Item added to cart successfully
+2025-12-14 01:19:59,991 - INFO - All Carts are fetched successfully
+2025-12-14 01:20:00,012 - INFO - Carts Schema Validated
+2025-12-14 01:20:00,022 - INFO - New Cart created successfully
+2025-12-14 01:20:00,031 - INFO - Cart with id retrieved successfully
+2025-12-14 01:20:00,041 - INFO - Cart with id deleted successfully
+2025-12-14 01:20:00,062 - INFO - Item added to cart successfully
+2025-12-14 01:20:04,201 - INFO - All Carts are fetched successfully
+2025-12-14 01:20:04,227 - INFO - Carts Schema Validated
+2025-12-14 01:20:04,239 - INFO - New Cart created successfully
+2025-12-14 01:20:04,249 - INFO - Cart with id retrieved successfully
+2025-12-14 01:20:04,258 - INFO - Cart with id deleted successfully
+2025-12-14 01:20:04,278 - INFO - Item added to cart successfully
+2025-12-14 01:20:15,217 - INFO - All Carts are fetched successfully
+2025-12-14 01:20:15,243 - INFO - Carts Schema Validated
+2025-12-14 01:20:15,254 - INFO - New Cart created successfully
+2025-12-14 01:20:15,263 - INFO - Cart with id retrieved successfully
+2025-12-14 01:20:15,273 - INFO - Cart with id deleted successfully
+2025-12-14 01:20:15,294 - INFO - Item added to cart successfully
+2025-12-14 01:20:31,462 - INFO - All Carts are fetched successfully
+2025-12-14 01:20:31,497 - INFO - Carts Schema Validated
+2025-12-14 01:20:31,512 - INFO - New Cart created successfully
+2025-12-14 01:20:31,529 - INFO - Cart with id retrieved successfully
+2025-12-14 01:20:31,544 - INFO - Cart with id deleted successfully
+2025-12-14 01:20:31,575 - INFO - Item added to cart successfully
+2025-12-14 01:29:49,707 - INFO - All Carts are fetched successfully
+2025-12-14 01:29:49,742 - INFO - Carts Schema Validated
+2025-12-14 01:29:49,758 - INFO - New Cart created successfully
+2025-12-14 01:29:49,772 - INFO - Cart with id retrieved successfully
+2025-12-14 01:29:49,785 - INFO - Cart with id deleted successfully
+2025-12-14 01:29:49,815 - INFO - Item added to cart successfully
+2025-12-14 01:39:58,190 - INFO - All Carts are fetched successfully
+2025-12-14 01:39:58,225 - INFO - Carts Schema Validated
+2025-12-14 01:39:58,241 - INFO - New Cart created successfully
+2025-12-14 01:39:58,256 - INFO - Cart with id retrieved successfully
+2025-12-14 01:39:58,270 - INFO - Cart with id deleted successfully
+2025-12-14 01:39:58,301 - INFO - Item added to cart successfully

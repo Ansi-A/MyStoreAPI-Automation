@@ -1,0 +1,2 @@
+[32mINFO    [0m tests.test_auth.test_users_crud:test_users_crud.py:21 All Users successfully fetched
+[32mINFO    [0m tests.test_auth.test_users_crud:test_users_crud.py:23 User Schema successfully validated

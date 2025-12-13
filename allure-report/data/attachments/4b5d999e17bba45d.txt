@@ -1,0 +1,5 @@
+[32mINFO    [0m tests.test_auth.test_auth_flow:test_auth_flow.py:32 user created successfully
+[32mINFO    [0m tests.test_auth.test_auth_flow:test_auth_flow.py:37 user login successfully
+[32mINFO    [0m tests.test_auth.test_auth_flow:test_auth_flow.py:42 user fetched by successfully
+[32mINFO    [0m tests.test_auth.test_auth_flow:test_auth_flow.py:47 user updated successfully
+[32mINFO    [0m tests.test_auth.test_auth_flow:test_auth_flow.py:52 user deleted successfully

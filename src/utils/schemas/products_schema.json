@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {"type": "integer"},
+          "name": {"type": "string"},
+          "price": {"type": "number"},
+          "category": {"type": "string"},
+          "stock": {"type": "integer"},
+          "description": {"type": ["string","null"]},
+          "imageUrl": {"type": ["string","null"]},
+          "isActive": {"type": "boolean"},
+          "tags": {"type": "array","items": {"type": "string"}},
+          "rating": {"type": "number"},
+          "createdAt": {"type": "string"}
+        },
+        "required": ["id","name","price","category","isActive","createdAt"]
+      }
+    },
+    "total": {"type": "integer"},
+    "page": {"type": "integer"},
+    "limit": {"type": "integer"},
+    "total_pages": {"type": "integer"}
+  },
+  "required": ["items","total","page","limit","total_pages"]
+}

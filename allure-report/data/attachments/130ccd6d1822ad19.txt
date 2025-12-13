@@ -1,0 +1,2 @@
+2025-12-14 01:39:58,884 - INFO - Products retrieved successfully
+2025-12-14 01:39:58,891 - INFO - Product Schema verified successfully

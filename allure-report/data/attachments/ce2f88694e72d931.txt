@@ -1,0 +1,1 @@
+[32mINFO    [0m tests.test_auth.test_users_crud:test_users_crud.py:28 User successfully fetched

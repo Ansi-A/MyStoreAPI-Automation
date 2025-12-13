@@ -1,0 +1,2 @@
+[32mINFO    [0m tests.test_products.test_products_crud:test_products_crud.py:19 Products retrieved successfully
+[32mINFO    [0m tests.test_products.test_products_crud:test_products_crud.py:21 Product Schema verified successfully

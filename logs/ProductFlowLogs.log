@@ -1,0 +1,100 @@
+2025-12-12 21:44:39,801 - INFO - Product created successfully
+2025-12-12 21:44:39,803 - INFO - Product retrieved successfully
+2025-12-12 21:44:39,809 - INFO - Product updated successfully
+2025-12-12 21:44:39,814 - INFO - Product deleted successfully
+2025-12-12 21:45:02,677 - INFO - Product created successfully
+2025-12-12 21:45:02,679 - INFO - Product retrieved successfully: {'name': 'Michael Horton', 'price': 10.0, 'category': 'Baby Wear', 'stock': 84364, 'description': 'Career of majority next save.', 'imageUrl': None, 'isActive': True, 'tags': [], 'rating': 0.0, 'id': 41, 'createdAt': '2024-01-15'}
+2025-12-12 21:45:02,684 - INFO - Product updated successfully
+2025-12-12 21:45:02,689 - INFO - Product deleted successfully
+2025-12-13 19:30:02,615 - INFO - Product created successfully
+2025-12-13 19:30:02,618 - INFO - Product retrieved successfully: {'name': 'Jeff Davis', 'price': 33.0, 'category': 'Accessories', 'stock': 18926, 'description': 'They miss institution bag future. Traditional commercial tree subject hard event professional.', 'imageUrl': None, 'isActive': True, 'tags': [], 'rating': 0.0, 'id': 44, 'createdAt': '2024-01-15'}
+2025-12-13 19:30:02,625 - INFO - Product updated successfully
+2025-12-13 19:30:02,630 - INFO - Product deleted successfully
+2025-12-13 19:31:08,068 - INFO - Product created successfully
+2025-12-13 19:31:08,070 - INFO - Product retrieved successfully: {'name': 'Scott Griffin', 'price': 52.0, 'category': 'Accessories', 'stock': 28704, 'description': 'Bar article expert job financial.', 'imageUrl': None, 'isActive': True, 'tags': [], 'rating': 0.0, 'id': 47, 'createdAt': '2024-01-15'}
+2025-12-13 19:31:08,077 - INFO - Product updated successfully
+2025-12-13 19:31:08,081 - INFO - Product deleted successfully
+2025-12-13 19:33:22,517 - INFO - Product created successfully
+2025-12-13 19:33:22,520 - INFO - Product retrieved successfully: {'name': 'Matthew Colon', 'price': 16.0, 'category': "Men's Wear", 'stock': 33318, 'description': 'Fund finally score population.', 'imageUrl': None, 'isActive': True, 'tags': [], 'rating': 0.0, 'id': 50, 'createdAt': '2024-01-15'}
+2025-12-13 19:33:22,527 - INFO - Product updated successfully
+2025-12-13 19:33:22,533 - INFO - Product deleted successfully
+2025-12-13 19:33:33,101 - INFO - Product created successfully
+2025-12-13 19:33:33,104 - INFO - Product retrieved successfully: {'name': 'Scott Hayes', 'price': 84.0, 'category': "Men's Wear", 'stock': 58084, 'description': 'Behavior much guy eat by ability. Food actually radio determine attorney risk home.', 'imageUrl': None, 'isActive': True, 'tags': [], 'rating': 0.0, 'id': 53, 'createdAt': '2024-01-15'}
+2025-12-13 19:33:33,111 - INFO - Product updated successfully
+2025-12-13 19:33:33,117 - INFO - Product deleted successfully
+2025-12-13 19:33:38,195 - INFO - Product created successfully
+2025-12-13 19:33:38,198 - INFO - Product retrieved successfully: {'name': 'Gregory Wagner', 'price': 59.0, 'category': "Men's Wear", 'stock': 48424, 'description': 'Toward point crime PM. Along west factor.', 'imageUrl': None, 'isActive': True, 'tags': [], 'rating': 0.0, 'id': 56, 'createdAt': '2024-01-15'}
+2025-12-13 19:33:38,205 - INFO - Product updated successfully
+2025-12-13 19:33:38,211 - INFO - Product deleted successfully
+2025-12-13 21:25:30,146 - INFO - Product created successfully
+2025-12-13 21:25:30,150 - INFO - Product retrieved successfully: {'name': 'Morgan Greer', 'price': 24.0, 'category': 'Smart Technologies', 'stock': 56734, 'description': 'Less group three test write with. Ahead deep see individual weight daughter new.', 'imageUrl': None, 'isActive': True, 'tags': [], 'rating': 0.0, 'id': 59, 'createdAt': '2024-01-15'}
+2025-12-13 21:25:30,160 - INFO - Product updated successfully
+2025-12-13 21:25:30,167 - INFO - Product deleted successfully
+2025-12-13 21:30:47,877 - INFO - Product created successfully
+2025-12-13 21:30:47,880 - INFO - Product retrieved successfully: {'name': 'Betty Hale', 'price': 73.0, 'category': "Men's Wear", 'stock': 97756, 'description': 'Car as describe.', 'imageUrl': None, 'isActive': True, 'tags': [], 'rating': 0.0, 'id': 62, 'createdAt': '2024-01-15'}
+2025-12-13 21:30:47,890 - INFO - Product updated successfully
+2025-12-13 21:30:47,897 - INFO - Product deleted successfully
+2025-12-13 21:47:57,672 - INFO - Product created successfully
+2025-12-13 21:47:57,679 - INFO - Product retrieved successfully: {'name': 'Debra Young', 'price': 48.0, 'category': 'Smart Technologies', 'stock': 48025, 'description': 'Professional tonight its.', 'imageUrl': None, 'isActive': True, 'tags': [], 'rating': 0.0, 'id': 65, 'createdAt': '2024-01-15'}
+2025-12-13 21:47:57,688 - INFO - Product updated successfully
+2025-12-13 21:47:57,695 - INFO - Product deleted successfully
+2025-12-13 22:11:49,013 - INFO - Product created successfully
+2025-12-13 22:11:49,020 - INFO - Product retrieved successfully: {'name': 'Heather Wright', 'price': 4.0, 'category': 'Smart Technologies', 'stock': 14486, 'description': 'Wind trade employee industry really. Major quite party chair.', 'imageUrl': None, 'isActive': True, 'tags': [], 'rating': 0.0, 'id': 68, 'createdAt': '2024-01-15'}
+2025-12-13 22:11:49,028 - INFO - Product updated successfully
+2025-12-13 22:11:49,034 - INFO - Product deleted successfully
+2025-12-13 22:15:12,657 - INFO - Product created successfully
+2025-12-13 22:15:12,659 - INFO - Product retrieved successfully: {'name': 'Brandon Ashley', 'price': 84.0, 'category': 'Baby Wear', 'stock': 92384, 'description': 'Pretty field performance. Mean clear probably away level.', 'imageUrl': None, 'isActive': True, 'tags': [], 'rating': 0.0, 'id': 71, 'createdAt': '2024-01-15'}
+2025-12-13 22:15:12,666 - INFO - Product updated successfully
+2025-12-13 22:15:12,673 - INFO - Product deleted successfully
+2025-12-13 22:23:38,605 - INFO - Product created successfully
+2025-12-13 22:23:38,608 - INFO - Product retrieved successfully: {'name': 'Kelsey Randolph', 'price': 69.0, 'category': 'Baby Wear', 'stock': 53063, 'description': 'I social its road report half yet. Data yet hard analysis religious.', 'imageUrl': None, 'isActive': True, 'tags': [], 'rating': 0.0, 'id': 74, 'createdAt': '2024-01-15'}
+2025-12-13 22:23:38,614 - INFO - Product updated successfully
+2025-12-13 22:23:38,619 - INFO - Product deleted successfully
+2025-12-13 23:28:48,246 - INFO - Product created successfully
+2025-12-13 23:28:48,253 - INFO - Product retrieved successfully: {'name': 'Danielle Clark', 'price': 19.0, 'category': "Men's Wear", 'stock': 24895, 'description': 'Task final expert southern open kitchen. Station amount increase dog beat set.', 'imageUrl': None, 'isActive': True, 'tags': [], 'rating': 0.0, 'id': 77, 'createdAt': '2024-01-15'}
+2025-12-13 23:28:48,263 - INFO - Product updated successfully
+2025-12-13 23:28:48,274 - INFO - Product deleted successfully
+2025-12-14 00:52:20,592 - INFO - Product created successfully
+2025-12-14 00:52:20,595 - INFO - Product retrieved successfully: {'name': 'Luis Adams', 'price': 2.0, 'category': "Men's Wear", 'stock': 2171, 'description': 'Fast happy study might. True focus believe.', 'imageUrl': None, 'isActive': True, 'tags': [], 'rating': 0.0, 'id': 80, 'createdAt': '2024-01-15'}
+2025-12-14 00:52:20,604 - INFO - Product updated successfully
+2025-12-14 00:52:20,613 - INFO - Product deleted successfully
+2025-12-14 01:12:11,016 - INFO - Product created successfully
+2025-12-14 01:12:11,022 - INFO - Product retrieved successfully: {'name': 'Alexis Ibarra', 'price': 60.0, 'category': 'Baby Wear', 'stock': 93441, 'description': 'Off also store tonight fall quite.', 'imageUrl': None, 'isActive': True, 'tags': [], 'rating': 0.0, 'id': 83, 'createdAt': '2024-01-15'}
+2025-12-14 01:12:11,029 - INFO - Product updated successfully
+2025-12-14 01:12:11,035 - INFO - Product deleted successfully
+2025-12-14 01:13:00,358 - INFO - Product created successfully
+2025-12-14 01:13:00,361 - INFO - Product retrieved successfully: {'name': 'Brenda Smith', 'price': 87.0, 'category': 'Smart Technologies', 'stock': 61951, 'description': 'Us policy paper executive bed leave work.', 'imageUrl': None, 'isActive': True, 'tags': [], 'rating': 0.0, 'id': 86, 'createdAt': '2024-01-15'}
+2025-12-14 01:13:00,367 - INFO - Product updated successfully
+2025-12-14 01:13:00,372 - INFO - Product deleted successfully
+2025-12-14 01:13:07,134 - INFO - Product created successfully
+2025-12-14 01:13:07,137 - INFO - Product retrieved successfully: {'name': 'Alison Compton', 'price': 10.0, 'category': "Men's Wear", 'stock': 97020, 'description': 'Dog similar speak business live letter. Once catch live first along role smile.', 'imageUrl': None, 'isActive': True, 'tags': [], 'rating': 0.0, 'id': 89, 'createdAt': '2024-01-15'}
+2025-12-14 01:13:07,145 - INFO - Product updated successfully
+2025-12-14 01:13:07,150 - INFO - Product deleted successfully
+2025-12-14 01:19:55,644 - INFO - Product created successfully
+2025-12-14 01:19:55,647 - INFO - Product retrieved successfully: {'name': 'Joanne Hodges', 'price': 37.0, 'category': 'Smart Technologies', 'stock': 80781, 'description': 'Series nice throw eye.', 'imageUrl': None, 'isActive': True, 'tags': [], 'rating': 0.0, 'id': 92, 'createdAt': '2024-01-15'}
+2025-12-14 01:19:55,653 - INFO - Product updated successfully
+2025-12-14 01:19:55,658 - INFO - Product deleted successfully
+2025-12-14 01:20:00,536 - INFO - Product created successfully
+2025-12-14 01:20:00,539 - INFO - Product retrieved successfully: {'name': 'Daniel Daugherty', 'price': 80.0, 'category': "Men's Wear", 'stock': 19207, 'description': 'Provide great with first six hospital necessary. Apply wonder detail detail budget.', 'imageUrl': None, 'isActive': True, 'tags': [], 'rating': 0.0, 'id': 95, 'createdAt': '2024-01-15'}
+2025-12-14 01:20:00,546 - INFO - Product updated successfully
+2025-12-14 01:20:00,552 - INFO - Product deleted successfully
+2025-12-14 01:20:04,773 - INFO - Product created successfully
+2025-12-14 01:20:04,776 - INFO - Product retrieved successfully: {'name': 'Judy Knight', 'price': 4.0, 'category': "Men's Wear", 'stock': 92647, 'description': 'Today little end tell decade.', 'imageUrl': None, 'isActive': True, 'tags': [], 'rating': 0.0, 'id': 98, 'createdAt': '2024-01-15'}
+2025-12-14 01:20:04,789 - INFO - Product updated successfully
+2025-12-14 01:20:04,799 - INFO - Product deleted successfully
+2025-12-14 01:20:15,792 - INFO - Product created successfully
+2025-12-14 01:20:15,796 - INFO - Product retrieved successfully: {'name': 'Antonio Whitney', 'price': 47.0, 'category': "Men's Wear", 'stock': 63564, 'description': 'Lose car common mouth.', 'imageUrl': None, 'isActive': True, 'tags': [], 'rating': 0.0, 'id': 101, 'createdAt': '2024-01-15'}
+2025-12-14 01:20:15,806 - INFO - Product updated successfully
+2025-12-14 01:20:15,814 - INFO - Product deleted successfully
+2025-12-14 01:20:32,253 - INFO - Product created successfully
+2025-12-14 01:20:32,257 - INFO - Product retrieved successfully: {'name': 'Frank Cruz', 'price': 85.0, 'category': 'Accessories', 'stock': 68973, 'description': 'All situation their financial stand interest reason by.', 'imageUrl': None, 'isActive': True, 'tags': [], 'rating': 0.0, 'id': 104, 'createdAt': '2024-01-15'}
+2025-12-14 01:20:32,266 - INFO - Product updated successfully
+2025-12-14 01:20:32,274 - INFO - Product deleted successfully
+2025-12-14 01:29:50,580 - INFO - Product created successfully
+2025-12-14 01:29:50,583 - INFO - Product retrieved successfully: {'name': 'Nathan Rhodes', 'price': 38.0, 'category': 'Smart Technologies', 'stock': 17122, 'description': 'Present dark away toward others serve.', 'imageUrl': None, 'isActive': True, 'tags': [], 'rating': 0.0, 'id': 107, 'createdAt': '2024-01-15'}
+2025-12-14 01:29:50,594 - INFO - Product updated successfully
+2025-12-14 01:29:50,603 - INFO - Product deleted successfully
+2025-12-14 01:39:58,964 - INFO - Product created successfully
+2025-12-14 01:39:58,967 - INFO - Product retrieved successfully: {'name': 'Mr. John Steele', 'price': 54.0, 'category': 'Smart Technologies', 'stock': 76564, 'description': 'Follow energy civil window civil consumer move.', 'imageUrl': None, 'isActive': True, 'tags': [], 'rating': 0.0, 'id': 110, 'createdAt': '2024-01-15'}
+2025-12-14 01:39:58,976 - INFO - Product updated successfully
+2025-12-14 01:39:58,983 - INFO - Product deleted successfully
