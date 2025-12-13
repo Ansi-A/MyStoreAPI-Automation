@@ -1,112 +1,232 @@
-# MyStoreAPI-Automation
-# 🧪 E-commerce API Test Automation Framework
+# 🛒 MyStoreAPI – FastAPI E‑Commerce Backend & Automation Framework
 
-A professional-grade test automation framework for the FastAPI E-Commerce API. Features 68+ test cases with modular architecture, Allure reporting, and comprehensive coverage of authentication, products, carts, orders, and end-to-end workflows.
+A **production‑style E‑Commerce REST API** built with **FastAPI** and a **complete QA automation framework** using **pytest + Allure**.
 
-## 📋 Prerequisites
+This project demonstrates **backend API development, Dockerization, API testing, and CI/CD‑ready automation**, making it ideal for **internships and junior backend / QA automation roles**.
 
-- Python 3.10+
-- Docker and Docker Compose
-- Git
+---
 
-## 🚀 Quick Setup
+## 🚀 Project Overview
 
-### Step 1: Set Up the E-Commerce API
+This system consists of **two repositories**:
+
+1. **FastAPI E‑Commerce Backend** – The actual backend API
+2. **MyStoreAPI Automation Framework** – Automated API testing suite
+
+The backend simulates a **real‑world e‑commerce system** with:
+
+* Users & Authentication
+* Products
+* Carts
+* Orders
+* End‑to‑end purchase workflows
+
+---
+
+## 🧠 Architecture (High Level)
+
+```
+Client (Tests / Frontend)
+        ↓
+     REST API (FastAPI)
+        ↓
+   Business Logic
+        ↓
+     Database
+```
+
+* Backend exposes **REST endpoints**
+* Clients interact via **HTTP (JSON)**
+* Authentication via **JWT tokens**
+* Fully containerized with **Docker**
+
+---
+
+## 📦 Repository 1: FastAPI E‑Commerce API
+
+### 🔗 Clone & Run the API
 
 ```bash
-# Clone and run the FastAPI E-Commerce API
 git clone https://github.com/salman415-462/dockerAPI
 cd dockerAPI
+```
+
+### 🐳 Build & Run with Docker
+
+```bash
 docker build -t ecommerce-api .
 docker run -d -p 9000:8000 --name ecommerce_container ecommerce-api
+```
 
-# Verify the API is running
+### ✅ Verify API is Running
+
+```bash
 curl http://localhost:9000/products/
-API Access:
+```
 
-🌐 Main URL: http://localhost:9000
+---
 
-📄 API Docs: http://localhost:9000/docs
+## 🌐 API Access
 
-🛒 Products: http://localhost:9000/products/
+* **Base URL:** [http://localhost:9000](http://localhost:9000)
+* **Swagger Docs:** [http://localhost:9000/docs](http://localhost:9000/docs)
 
-Step 2: Set Up the Test Framework
-bash
-# Clone this test automation framework
+### Core Endpoints
+
+* 🛒 Products → `GET /products/`
+* 👤 Users → `POST /users/`
+* 🧺 Carts → `POST /carts/`
+* 📦 Orders → `POST /orders/`
+
+---
+
+## 🧪 Repository 2: API Automation Framework
+
+### 🔗 Clone the Automation Project
+
+```bash
 git clone https://github.com/Ansi-A/MyStoreAPI-Automation
 cd MyStoreAPI-Automation
+```
 
-# Create and activate virtual environment
+### 🐍 Create Virtual Environment
+
+```bash
 python3 -m venv .venv
-source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+source .venv/bin/activate   # Windows: .venv\Scripts\activate
+```
 
-# Install dependencies
+### 📥 Install Dependencies
+
+```bash
 pip install -r requirements.txt
-Step 3: Run the Tests
-bash
-# Run all tests with Allure reporting
-pytest --alluredir=./allure-results
+```
 
-# Generate and view the test report
+---
+
+## ▶️ Run the Tests
+
+### Execute All Tests with Allure Reporting
+
+```bash
+pytest --alluredir=./allure-results
+```
+
+### Generate & Open Report
+
+```bash
 allure generate ./allure-results -o ./allure-report --clean
 allure open ./allure-report
-📊 Test Coverage
-68 test cases with 100% pass rate
+```
 
-5 test suites: Authentication, Products, Carts, Orders, Integration
+---
 
-Positive & negative testing with edge case coverage
+## 📊 Test Coverage
 
-JSON schema validation for API contracts
+* ✅ **68 automated test cases**
+* 🧩 **5 test suites**:
 
-Dynamic test data generation
+  * Authentication
+  * Products
+  * Carts
+  * Orders
+  * Integration workflows
 
-🏗️ Project Structure
-text
-MyStoreApi/
-├── src/                    # Source modules (API clients, utilities)
-├── tests/                  # Test suites organized by feature
+### Testing Includes
+
+* Positive & negative scenarios
+* Edge‑case validation
+* JSON schema validation
+* Dynamic test data generation
+* End‑to‑end e‑commerce flows
+
+---
+
+## 🏗️ Automation Project Structure
+
+```
+MyStoreAPI-Automation/
+├── src/                    # API clients & core utilities
+├── tests/                  # Feature‑based test suites
 ├── logs/                   # Execution logs
-├── allure-report/          # Generated Allure reports
-├── requirements.txt        # Python dependencies
-└── environment.properties  # Test environment configuration
-🔧 Dependencies
-text
-requests          # HTTP client for API calls
-pytest            # Test framework
-allure-pytest     # Allure reporting integration
-jsonschema        # JSON schema validation
-faker             # Dynamic test data generation
-jsonpath-ng       # JSON path parsing
-📈 Features
-Modular architecture with separated concerns
+├── allure-report/          # Generated test reports
+├── requirements.txt        # Dependencies
+└── environment.properties  # Environment configuration
+```
 
-Professional Allure reporting with environment tracking
+---
 
-Structured logging per test module
+## 🔧 Key Dependencies
 
-Ready for CI/CD integration
+```
+requests          # HTTP client
+pytest            # Test execution framework
+allure-pytest     # Reporting integration
+jsonschema        # API contract validation
+faker             # Test data generation
+jsonpath-ng       # JSON parsing & assertions
+```
 
-Comprehensive API testing (authentication, CRUD, workflows)
+---
 
-🐳 Docker Commands Reference
-bash
-# Start the API
+## ⭐ Key Features
+
+* Modular & scalable test architecture
+* Clean separation of concerns
+* Professional Allure reports
+* Structured logging per module
+* CI/CD‑ready design
+* Covers CRUD + complex workflows
+
+---
+
+## 🐳 Docker Command Reference
+
+```bash
+# Start container
 docker run -d -p 9000:8000 --name ecommerce_container ecommerce-api
 
-# Stop the API
+# Stop container
 docker stop ecommerce_container
 
-# Restart
+# Restart container
 docker start ecommerce_container
 
 # View logs
 docker logs ecommerce_container
 
-# Check running containers
+# List running containers
 docker ps
-📫 Contact
-Salman - QA Automation Specialist
-GitHub: github.com/Ansi-A
-Project: github.com/Ansi-A/MyStoreAPI-Automation
-Target API: github.com/salman415-462/dockerAPI
+```
+
+---
+
+## 🎯 Why This Project Matters
+
+This project demonstrates:
+
+* ✅ Real backend API design
+* ✅ Dockerized production setup
+* ✅ Professional API automation
+* ✅ CI/CD‑ready testing strategy
+* ✅ Understanding of complete system workflows
+
+Perfect for:
+
+* Backend Internships
+* QA Automation Roles
+* DevOps‑aware API testing
+
+---
+
+## 📫 Contact
+
+**Salman**
+QA Automation / Backend Enthusiast
+
+* GitHub (Automation): [https://github.com/Ansi-A/MyStoreAPI-Automation](https://github.com/Ansi-A/MyStoreAPI-Automation)
+* GitHub (API): [https://github.com/salman415-462/dockerAPI](https://github.com/salman415-462/dockerAPI)
+
+---
+
+> *“This project is not just API testing — it is testing a complete system.”*
