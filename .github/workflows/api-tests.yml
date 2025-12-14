@@ -11,38 +11,57 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    # 1️⃣ Checkout repository
     - name: Checkout repository
       uses: actions/checkout@v4
 
+    # 2️⃣ Set up Python
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
         python-version: '3.11'
 
+    # 3️⃣ Install Python dependencies
     - name: Install Python dependencies
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    # START TARGET API
-    - name: Start API using Docker
+    # 4️⃣ Start API using Docker
+    - name: Start API container
       run: |
         docker pull salman415-462/dockerapi:latest || true
         docker run -d -p 8000:8000 --name test_api salman415-462/dockerapi:latest
-        sleep 15  # give API some time to start
+        echo "Waiting for API to be ready..."
+        for i in {1..30}; do
+          if curl --silent --fail http://127.0.0.1:8000/docs; then
+            echo "API is up!"
+            break
+          else
+            echo "Waiting 2s..."
+            sleep 2
+          fi
+        done
 
+    # 5️⃣ Verify API is running
     - name: Verify API is running
-      run: |
-        curl --fail http://127.0.0.1:8000/docs
+      run: curl http://127.0.0.1:8000/docs
 
-    # RUN TESTS
+    # 6️⃣ Run API tests with Allure reporting
     - name: Run API tests
-      run: |
-        pytest --alluredir=allure-results
+      run: pytest --alluredir=allure-results
 
-    # 📊 UPLOAD ALLURE RESULTS
+    # 7️⃣ Upload Allure results
     - name: Upload Allure results
       uses: actions/upload-artifact@v4
       with:
         name: allure-results
         path: allure-results
+
+    # 8️⃣ Stop API container
+    - name: Stop API container
+      run: docker stop test_api
+
+    # 9️⃣ Remove API container
+    - name: Remove API container
+      run: docker rm test_api
