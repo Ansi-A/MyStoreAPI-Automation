@@ -56,7 +56,7 @@ jobs:
         pip install -r ./dockerAPI/requirements.txt
         pip install pytest allure-pytest
 
-    - name: Debug: Check API response
+    - name: Debug Api
       run: |
         echo "Testing GET / response"
         curl -v http://127.0.0.1:9000/ || true
