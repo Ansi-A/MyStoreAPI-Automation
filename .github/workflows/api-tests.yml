@@ -24,18 +24,18 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    # 🔥 START TARGET API
+    # START TARGET API
     - name: Start API using Docker
       run: |
         docker pull salman415-462/dockerapi:latest || true
         docker run -d -p 8000:8000 --name test_api salman415-462/dockerapi:latest
-        sleep 10
+        sleep 15  # give API some time to start
 
     - name: Verify API is running
       run: |
-        curl http://127.0.0.1:8000/docs
+        curl --fail http://127.0.0.1:8000/docs
 
-    #  RUN TESTS
+    # RUN TESTS
     - name: Run API tests
       run: |
         pytest --alluredir=allure-results
