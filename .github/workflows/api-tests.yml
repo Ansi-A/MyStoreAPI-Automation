@@ -2,66 +2,54 @@ name: API Test Automation
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
   pull_request:
-    branches: [ main ]
 
 jobs:
-  api-tests:
+  test:
     runs-on: ubuntu-latest
 
+    services:
+      docker:
+        image: docker:24.0.6
+        options: --privileged
+        ports:
+          - 9000:9000
+        volumes:
+          - /var/run/docker.sock:/var/run/docker.sock
+
     steps:
-    # 1️⃣ Checkout repository
-    - name: Checkout repository
-      uses: actions/checkout@v4
+    - name: Checkout repo
+      uses: actions/checkout@v3
 
-    # 2️⃣ Set up Python
-    - name: Set up Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.11'
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v3
 
-    # 3️⃣ Install Python dependencies
-    - name: Install Python dependencies
+    - name: Build Docker image
+      run: docker build -t ecommerce-api .
+
+    - name: Run Docker container
+      run: |
+        docker run -d -p 9000:8000 --name ecommerce_container ecommerce-api
+
+    - name: Wait for API to be ready
+      run: |
+        echo "Waiting for API to start..."
+        for i in {1..60}; do
+          STATUS=$(curl -s -o /dev/null -w "%{http_code}" http://127.0.0.1:9000/docs || echo 000)
+          if [ "$STATUS" -eq 200 ]; then
+            echo "API is ready!"
+            break
+          fi
+          echo "API not ready yet, waiting 2s..."
+          sleep 2
+        done
+
+    - name: Install dependencies for tests
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    # 4️⃣ Start API using Docker
-    - name: Start API container
-      run: |
-        docker pull salman415-462/dockerapi:latest || true
-        docker run -d -p 8000:8000 --name test_api salman415-462/dockerapi:latest
-        echo "Waiting for API to be ready..."
-        for i in {1..30}; do
-          if curl --silent --fail http://127.0.0.1:8000/docs; then
-            echo "API is up!"
-            break
-          else
-            echo "Waiting 2s..."
-            sleep 2
-          fi
-        done
-
-    # 5️⃣ Verify API is running
-    - name: Verify API is running
-      run: curl http://127.0.0.1:8000/docs
-
-    # 6️⃣ Run API tests with Allure reporting
-    - name: Run API tests
-      run: pytest --alluredir=allure-results
-
-    # 7️⃣ Upload Allure results
-    - name: Upload Allure results
-      uses: actions/upload-artifact@v4
-      with:
-        name: allure-results
-        path: allure-results
-
-    # 8️⃣ Stop API container
-    - name: Stop API container
-      run: docker stop test_api
-
-    # 9️⃣ Remove API container
-    - name: Remove API container
-      run: docker rm test_api
+    - name: Run Pytest
+      run: pytest -v
