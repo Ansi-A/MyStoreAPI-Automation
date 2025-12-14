@@ -23,47 +23,33 @@ jobs:
     - name: Checkout repo
       uses: actions/checkout@v3
 
-    - name: Clone dockerAPI repo
-      run: git clone https://github.com/salman415-462/dockerAPI
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
 
-    - name: Set up Docker Buildx
-      uses: docker/setup-buildx-action@v3
+    - name: Install test dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
 
     - name: Build Docker image
-      run: docker build -t ecommerce-api ./dockerAPI
+      run: docker build -t ecommerce-api .
 
     - name: Run Docker container
       run: docker run -d -p 9000:8000 --name ecommerce_container ecommerce-api
 
     - name: Wait for API to be ready
       run: |
-        echo "Waiting for API to start..."
         for i in {1..60}; do
           STATUS=$(curl -s -o /dev/null -w "%{http_code}" http://127.0.0.1:9000/docs || echo 000)
           if [ "$STATUS" -eq 200 ]; then
             echo "API is ready!"
             break
           fi
-          echo "API not ready yet, waiting 2s..."
           sleep 2
         done
 
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: 3.11
-
-    - name: Install test dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install pytest allure-pytest
-        pip install -r ./dockerAPI/requirements.txt
-
     - name: Run Pytest with Allure
-      run: python -m pytest -v ./dockerAPI --alluredir=./allure-results
-
-    - name: Upload Allure Results
-      uses: actions/upload-artifact@v4
-      with:
-        name: allure-results
-        path: ./allure-results
+      run: |
+        pytest -v tests --alluredir=allure-results
