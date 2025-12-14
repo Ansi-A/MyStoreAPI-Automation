@@ -1,1 +1,0 @@
-{'detail': [{'type': 'float_parsing', 'loc': ['body', 'price'], 'msg': 'Input should be a valid number, unable to parse string as a number', 'input': 'free', 'url': 'https://errors.pydantic.dev/2.12/v/float_parsing'}]}

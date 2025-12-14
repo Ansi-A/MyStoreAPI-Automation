@@ -1,2 +1,0 @@
-2025-12-14 01:39:58,130 - INFO - All Users successfully fetched
-2025-12-14 01:39:58,144 - INFO - User Schema successfully validated

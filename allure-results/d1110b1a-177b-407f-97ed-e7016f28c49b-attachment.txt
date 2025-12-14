@@ -1,1 +1,0 @@
-{'detail': [{'type': 'greater_than_equal', 'loc': ['body', 'stock'], 'msg': 'Input should be greater than or equal to 0', 'input': -1, 'ctx': {'ge': 0}, 'url': 'https://errors.pydantic.dev/2.12/v/greater_than_equal'}]}

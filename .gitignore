@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Pytest
+.pytest_cache/
+
+# Allure (generated reports)
+allure-results/
+allure-report/
+
+# Logs
+logs/

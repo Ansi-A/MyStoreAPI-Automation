@@ -1,4 +1,0 @@
-[32mINFO    [0m tests.test_products.test_products_workflow:test_products_workflow.py:17 Product created successfully
-[32mINFO    [0m tests.test_products.test_products_workflow:test_products_workflow.py:23 Product retrieved successfully: {'name': 'Mr. John Steele', 'price': 54.0, 'category': 'Smart Technologies', 'stock': 76564, 'description': 'Follow energy civil window civil consumer move.', 'imageUrl': None, 'isActive': True, 'tags': [], 'rating': 0.0, 'id': 110, 'createdAt': '2024-01-15'}
-[32mINFO    [0m tests.test_products.test_products_workflow:test_products_workflow.py:29 Product updated successfully
-[32mINFO    [0m tests.test_products.test_products_workflow:test_products_workflow.py:35 Product deleted successfully

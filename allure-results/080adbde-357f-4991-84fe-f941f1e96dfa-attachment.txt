@@ -1,1 +1,0 @@
-[32mINFO    [0m tests.test_orders.test_orders_crud:test_orders_crud.py:35 Order by ID retrieved successfully

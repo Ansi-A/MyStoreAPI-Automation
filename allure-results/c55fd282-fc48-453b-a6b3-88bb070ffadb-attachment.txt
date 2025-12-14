@@ -1,4 +1,0 @@
-2025-12-14 01:39:58,964 - INFO - Product created successfully
-2025-12-14 01:39:58,967 - INFO - Product retrieved successfully: {'name': 'Mr. John Steele', 'price': 54.0, 'category': 'Smart Technologies', 'stock': 76564, 'description': 'Follow energy civil window civil consumer move.', 'imageUrl': None, 'isActive': True, 'tags': [], 'rating': 0.0, 'id': 110, 'createdAt': '2024-01-15'}
-2025-12-14 01:39:58,976 - INFO - Product updated successfully
-2025-12-14 01:39:58,983 - INFO - Product deleted successfully
