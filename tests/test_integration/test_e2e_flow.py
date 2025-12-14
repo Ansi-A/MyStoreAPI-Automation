@@ -65,8 +65,6 @@ def test_e2e_workflow(userApi, authApi, cartApi, ordersApi, productsApi):
     logger.info(f"Product add to Cart Successfully")
 
 
-
-
     #Create an order from that cart
     order=ordersApi.create_order_from_given_cart(c_id)
     o_id=order.json()['id']
