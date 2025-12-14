@@ -20,39 +20,37 @@ jobs:
           - /var/run/docker.sock:/var/run/docker.sock
 
     steps:
-    - name: Checkout repo
-      uses: actions/checkout@v3
+      - name: Checkout repo
+        uses: actions/checkout@v3
 
-    - name: Set up Docker Buildx
-      uses: docker/setup-buildx-action@v3
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
 
-    - name: Build Docker image
-      run: docker build -t ecommerce-api ./dockerAPI
+      - name: Build Docker image
+        run: docker build -t ecommerce-api ./dockerAPI
 
-    - name: Run Docker container
-      run: |
-        docker run -d -p 9000:8000 --name ecommerce_container ecommerce-api
+      - name: Run Docker container
+        run: docker run -d -p 9000:8000 --name ecommerce_container ecommerce-api
 
-    - name: Wait for API to be ready
-      run: |
-        echo "Waiting for API to start..."
-        for i in {1..60}; do
-          STATUS=$(curl -s -o /dev/null -w "%{http_code}" http://127.0.0.1:9000/docs || echo 000)
-          if [ "$STATUS" -eq 200 ]; then
-            echo "API is ready!"
-            break
-          fi
-          echo "API not ready yet, waiting 2s..."
-          sleep 2
-        done
+      - name: Wait for API to be ready
+        run: |
+          echo "Waiting for API to start..."
+          for i in {1..60}; do
+            STATUS=$(curl -s -o /dev/null -w "%{http_code}" http://127.0.0.1:9000/docs || echo 000)
+            if [ "$STATUS" -eq 200 ]; then
+              echo "API is ready!"
+              break
+            fi
+            echo "API not ready yet, waiting 2s..."
+            sleep 2
+          done
 
-    - name: Install dependencies for tests
-      run: |
-        cd dockerAPI
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
+      - name: Install dependencies for tests
+        working-directory: ./dockerAPI
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
-    - name: Run Pytest
-      run: |
-        cd dockerAPI
-        pytest -v
+      - name: Run Pytest
+        working-directory: ./dockerAPI
+        run: pytest -v
