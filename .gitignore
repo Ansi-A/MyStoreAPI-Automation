@@ -12,3 +12,4 @@ allure-report/
 
 # Logs
 logs/
+.env
