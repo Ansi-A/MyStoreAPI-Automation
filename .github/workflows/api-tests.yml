@@ -11,24 +11,14 @@ jobs:
   test:
     runs-on: ubuntu-latest
 
-    services:
-      docker:
-        image: docker:24.0.6
-        options: --privileged
-        ports:
-          - 9000:9000
-        volumes:
-          - /var/run/docker.sock:/var/run/docker.sock
-
     steps:
-      # Step 1: Checkout testing framework repo
+      # Step 1: Checkout the test framework repo
       - name: Checkout test repo
         uses: actions/checkout@v3
 
       # Step 2: Clone your API repo
       - name: Clone API repo
-        run: |
-          git clone https://github.com/salman415-462/dockerAPI dockerAPI
+        run: git clone https://github.com/salman415-462/dockerAPI dockerAPI
 
       # Step 3: Set up Docker Buildx
       - name: Set up Docker Buildx
