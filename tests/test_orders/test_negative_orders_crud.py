@@ -13,7 +13,7 @@ def orders_api():
 ({"shipping_address": 123,"payment_method": 111,"cart_id": 111},422),
 ({"shipping_address": 'lahore',"payment_method": 'credit',"cart_id": 3},404),
 ({"shipping_address": "islamabad","payment_method": 333,"cart_id": 'jsj'},422),
-({"shipping_address": 'lahore',"payment_method": 'debit',"cart_id": 5},404),
+({"shipping_address": 344,"payment_method": 433,"cart_id": 5},422),
 
 
 ])

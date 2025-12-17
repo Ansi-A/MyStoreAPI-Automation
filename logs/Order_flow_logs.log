@@ -143,3 +143,93 @@
 2025-12-14 01:39:58,601 - INFO - Order by ID updated successfully
 2025-12-14 01:39:58,615 - INFO - Order summary retrieved successfully
 2025-12-17 10:26:04,777 - INFO - Order by ID updated successfully
+2025-12-18 00:49:32,632 - INFO - All orders fetched successfully
+2025-12-18 00:49:32,640 - INFO - Order Schema verified successfully
+2025-12-18 00:49:32,661 - INFO - Order created successfully
+2025-12-18 00:49:32,670 - INFO - Order by ID retrieved successfully
+2025-12-18 00:49:32,681 - INFO - Order by ID updated successfully
+2025-12-18 00:49:32,690 - INFO - Order summary retrieved successfully
+2025-12-18 00:51:56,330 - INFO - All orders fetched successfully
+2025-12-18 00:51:56,336 - INFO - Order Schema verified successfully
+2025-12-18 00:51:56,356 - INFO - Order created successfully
+2025-12-18 00:51:56,366 - INFO - Order by ID retrieved successfully
+2025-12-18 00:51:56,377 - INFO - Order by ID updated successfully
+2025-12-18 00:51:56,387 - INFO - Order summary retrieved successfully
+2025-12-18 00:52:16,539 - INFO - All orders fetched successfully
+2025-12-18 00:52:16,546 - INFO - Order Schema verified successfully
+2025-12-18 00:52:16,569 - INFO - Order created successfully
+2025-12-18 00:52:16,579 - INFO - Order by ID retrieved successfully
+2025-12-18 00:52:16,590 - INFO - Order by ID updated successfully
+2025-12-18 00:52:16,601 - INFO - Order summary retrieved successfully
+2025-12-18 00:52:20,638 - INFO - All orders fetched successfully
+2025-12-18 00:52:20,644 - INFO - Order Schema verified successfully
+2025-12-18 00:52:20,665 - INFO - Order created successfully
+2025-12-18 00:52:20,675 - INFO - Order by ID retrieved successfully
+2025-12-18 00:52:20,687 - INFO - Order by ID updated successfully
+2025-12-18 00:52:20,697 - INFO - Order summary retrieved successfully
+2025-12-18 00:52:26,818 - INFO - All orders fetched successfully
+2025-12-18 00:52:26,825 - INFO - Order Schema verified successfully
+2025-12-18 00:52:26,844 - INFO - Order created successfully
+2025-12-18 00:52:26,853 - INFO - Order by ID retrieved successfully
+2025-12-18 00:52:26,864 - INFO - Order by ID updated successfully
+2025-12-18 00:52:26,875 - INFO - Order summary retrieved successfully
+2025-12-18 00:53:37,619 - INFO - All orders fetched successfully
+2025-12-18 00:53:37,626 - INFO - Order Schema verified successfully
+2025-12-18 00:53:37,646 - INFO - Order created successfully
+2025-12-18 00:53:37,656 - INFO - Order by ID retrieved successfully
+2025-12-18 00:53:37,667 - INFO - Order by ID updated successfully
+2025-12-18 00:53:37,677 - INFO - Order summary retrieved successfully
+2025-12-18 00:53:43,424 - INFO - All orders fetched successfully
+2025-12-18 00:53:43,430 - INFO - Order Schema verified successfully
+2025-12-18 00:53:43,451 - INFO - Order created successfully
+2025-12-18 00:53:43,460 - INFO - Order by ID retrieved successfully
+2025-12-18 00:53:43,471 - INFO - Order by ID updated successfully
+2025-12-18 00:53:43,481 - INFO - Order summary retrieved successfully
+2025-12-18 00:54:07,348 - INFO - All orders fetched successfully
+2025-12-18 00:54:07,356 - INFO - Order Schema verified successfully
+2025-12-18 00:54:07,378 - INFO - Order created successfully
+2025-12-18 00:54:07,392 - INFO - Order by ID retrieved successfully
+2025-12-18 00:54:07,404 - INFO - Order by ID updated successfully
+2025-12-18 00:54:07,416 - INFO - Order summary retrieved successfully
+2025-12-18 00:54:16,997 - INFO - All orders fetched successfully
+2025-12-18 00:54:17,004 - INFO - Order Schema verified successfully
+2025-12-18 00:54:17,026 - INFO - Order created successfully
+2025-12-18 00:54:17,037 - INFO - Order by ID retrieved successfully
+2025-12-18 00:54:17,049 - INFO - Order by ID updated successfully
+2025-12-18 00:54:17,061 - INFO - Order summary retrieved successfully
+2025-12-18 00:54:47,382 - INFO - All orders fetched successfully
+2025-12-18 00:54:47,389 - INFO - Order Schema verified successfully
+2025-12-18 00:54:47,410 - INFO - Order created successfully
+2025-12-18 00:54:47,420 - INFO - Order by ID retrieved successfully
+2025-12-18 00:54:47,431 - INFO - Order by ID updated successfully
+2025-12-18 00:54:47,442 - INFO - Order summary retrieved successfully
+2025-12-18 00:55:56,673 - INFO - All orders fetched successfully
+2025-12-18 00:55:56,680 - INFO - Order Schema verified successfully
+2025-12-18 00:55:56,699 - INFO - Order created successfully
+2025-12-18 00:55:56,709 - INFO - Order by ID retrieved successfully
+2025-12-18 00:55:56,720 - INFO - Order by ID updated successfully
+2025-12-18 00:55:56,732 - INFO - Order summary retrieved successfully
+2025-12-18 00:56:00,564 - INFO - All orders fetched successfully
+2025-12-18 00:56:00,571 - INFO - Order Schema verified successfully
+2025-12-18 00:56:00,593 - INFO - Order created successfully
+2025-12-18 00:56:00,603 - INFO - Order by ID retrieved successfully
+2025-12-18 00:56:00,616 - INFO - Order by ID updated successfully
+2025-12-18 00:56:00,628 - INFO - Order summary retrieved successfully
+2025-12-18 00:56:05,255 - INFO - All orders fetched successfully
+2025-12-18 00:56:05,260 - INFO - Order Schema verified successfully
+2025-12-18 00:56:05,282 - INFO - Order created successfully
+2025-12-18 00:56:05,292 - INFO - Order by ID retrieved successfully
+2025-12-18 00:56:05,305 - INFO - Order by ID updated successfully
+2025-12-18 00:56:05,316 - INFO - Order summary retrieved successfully
+2025-12-18 00:56:08,640 - INFO - All orders fetched successfully
+2025-12-18 00:56:08,647 - INFO - Order Schema verified successfully
+2025-12-18 00:56:08,671 - INFO - Order created successfully
+2025-12-18 00:56:08,682 - INFO - Order by ID retrieved successfully
+2025-12-18 00:56:08,694 - INFO - Order by ID updated successfully
+2025-12-18 00:56:08,706 - INFO - Order summary retrieved successfully
+2025-12-18 00:56:14,141 - INFO - All orders fetched successfully
+2025-12-18 00:56:14,147 - INFO - Order Schema verified successfully
+2025-12-18 00:56:14,171 - INFO - Order created successfully
+2025-12-18 00:56:14,183 - INFO - Order by ID retrieved successfully
+2025-12-18 00:56:14,196 - INFO - Order by ID updated successfully
+2025-12-18 00:56:14,208 - INFO - Order summary retrieved successfully

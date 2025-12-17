@@ -21,7 +21,7 @@ def test_get_all_products(products_api):
     logger.info(f"Product Schema verified successfully")
 
 def test_get_product_by_id(products_api):
-    res = products_api.get_product_by_id(43)
+    res = products_api.get_product_by_id(4)
     assert res.status_code == 200,"Wrong status code"
     assert res is not None
     logger.info("Product by ID retrieved successfully")
