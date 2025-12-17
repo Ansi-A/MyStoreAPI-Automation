@@ -12,11 +12,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Checkout the test framework repo
+      # Step 1: Checkout test framework repo
       - name: Checkout test repo
         uses: actions/checkout@v3
 
-      # Step 2: Clone your API repo
+      # Step 2: Clone API repo
       - name: Clone API repo
         run: git clone https://github.com/salman415-462/dockerAPI dockerAPI
 
@@ -37,13 +37,13 @@ jobs:
         run: |
           echo "Waiting for API to start..."
           for i in {1..60}; do
-            STATUS=$(curl -s -o /dev/null -w "%{http_code}" http://127.0.0.1:9000/docs || echo 000)
+            STATUS=$(curl -s -o /dev/null -w "%{http_code}" http://127.0.0.1:9000/users || echo 000)
             if [ "$STATUS" -eq 200 ]; then
               echo "API is ready!"
               break
             fi
-            echo "API not ready yet, waiting 2s..."
-            sleep 2
+            echo "API not ready yet, waiting 3s..."
+            sleep 3
           done
 
       # Step 7: Set up Python
@@ -59,19 +59,28 @@ jobs:
           pip install -r ./dockerAPI/requirements.txt
           pip install pytest allure-pytest
 
-      # Step 9: Debug API (optional)
+      # Step 9: Install Allure CLI
+      - name: Install Allure CLI
+        run: |
+          sudo apt update
+          sudo apt install -y wget unzip
+          wget https://github.com/allure-framework/allure2/releases/download/2.26.0/allure-2.26.0.zip
+          unzip allure-2.26.0.zip -d /opt/
+          sudo ln -s /opt/allure-2.26.0/bin/allure /usr/bin/allure
+
+      # Step 10: Debug API (optional)
       - name: Debug API
         run: curl -v http://127.0.0.1:9000/ || true
 
-      # Step 10: Run PyTest with Allure
+      # Step 11: Run PyTest with Allure
       - name: Run Pytest with Allure
         run: python -m pytest -v ./dockerAPI --alluredir=./allure-results || echo "Tests finished"
 
-      # Step 11: Generate Allure HTML report
+      # Step 12: Generate Allure HTML report
       - name: Generate Allure report
         run: allure generate ./allure-results --clean -o ./allure-report
 
-      # Step 12: Upload Allure artifacts
+      # Step 13: Upload Allure artifacts
       - name: Upload Allure results
         uses: actions/upload-artifact@v4
         with:
@@ -84,7 +93,7 @@ jobs:
           name: allure-report
           path: ./allure-report
 
-      # Step 13: Cleanup Docker container & image
+      # Step 14: Cleanup Docker container & image
       - name: Cleanup Docker
         run: |
           docker stop ecommerce_container
