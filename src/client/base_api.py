@@ -1,4 +1,4 @@
-#from src.utils.conftest import Configuration
+
 from src.client.api_client import ApiClient
 
 
