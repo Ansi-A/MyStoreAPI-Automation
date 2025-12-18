@@ -12,13 +12,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Checkout test framework repo
+      # 1️⃣ Checkout test framework repo (your proper test suite)
       - name: Checkout test repo
         uses: actions/checkout@v3
 
-      # 2️⃣ Clone API repo
+      # 2️⃣ Clone API repo separately
       - name: Clone API repo
-        run: git clone https://github.com/salman415-462/dockerAPI dockerAPI
+        run: |
+          git clone https://github.com/salman415-462/dockerAPI dockerAPI
+          echo "API repo cloned to dockerAPI/"
+          ls -la dockerAPI/
 
       # 3️⃣ Debug: Check Dockerfile
       - name: Debug Dockerfile
@@ -32,7 +35,7 @@ jobs:
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
 
-      # 5️⃣ Build Docker image
+      # 5️⃣ Build Docker image from API repo
       - name: Build Docker image
         run: docker build -t ecommerce-api ./dockerAPI
 
@@ -44,12 +47,11 @@ jobs:
           sleep 5
           docker logs ecommerce_container || true
 
-      # 7️⃣ Wait for API to be ready (FIXED: check root endpoint)
+      # 7️⃣ Wait for API to be ready
       - name: Wait for API to start
         run: |
           echo "Waiting for API to start on port 9000..."
           for i in {1..30}; do
-            # Check root endpoint instead of /users
             STATUS=$(curl -s -o /dev/null -w "%{http_code}" http://127.0.0.1:9000/ || echo 000)
             echo "Attempt $i: Status code = $STATUS"
             if [ "$STATUS" -eq 200 ]; then
@@ -72,12 +74,12 @@ jobs:
         with:
           python-version: 3.11
 
-      # 9️⃣ Install test dependencies (ADDED requests)
+      # 9️⃣ Install test dependencies for YOUR test framework
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r ./dockerAPI/requirements.txt
-          pip install pytest allure-pytest requests  # Added requests here
+          pip install -r requirements.txt  # Your test framework requirements
+          pip install allure-pytest  # Already have requests in requirements.txt
 
       # 🔟 Install Allure CLI
       - name: Install Allure CLI
@@ -100,18 +102,16 @@ jobs:
           echo "=== Testing /users ==="
           curl -I http://127.0.0.1:9000/users || true
 
-      # 1️⃣2️⃣ Run Pytest with Allure
+      # 1️⃣2️⃣ Run YOUR proper test framework tests (not API repo tests!)
       - name: Run Pytest with Allure
         run: |
-          echo "=== Running tests ==="
-          # First, fix any test files with JSON decode errors
-          find ./dockerAPI -name "*.py" -exec grep -l "json.loads(result)" {} \; | while read file; do
-            echo "Fixing $file..."
-            sed -i 's/json.loads(result)/{"error": "test file needs update"}/' "$file" || true
-          done
+          echo "=== Running YOUR test framework tests ==="
           
-          # Run tests
-          python -m pytest -v ./dockerAPI --alluredir=./allure-results || echo "Tests finished with exit code $?"
+          # Set base URL for your tests
+          export BASE_URL="http://127.0.0.1:9000"
+          
+          # Run tests from YOUR test framework directory
+          python -m pytest -v ./tests --alluredir=./allure-results || echo "Tests finished with exit code $?"
 
       # 1️⃣3️⃣ Generate Allure HTML report
       - name: Generate Allure report
