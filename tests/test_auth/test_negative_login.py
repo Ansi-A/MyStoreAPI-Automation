@@ -14,7 +14,7 @@ def authApi():
     ({"username": 'salman',"password": ''},401),
 ({"username": 'salman',"password": "344"},401),
 ({"username": '',"password": ""},401),
-({"username": 'salman',"password": 84343},422),
+({"username": 'salman',"passwor": 84343},422),
 ({"username": 'salman',"password": "passcode"},401),
 ({"username": 'Jessica_Jimenez',"password": "password123"},200)
 
