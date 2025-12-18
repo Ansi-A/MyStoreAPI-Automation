@@ -158,3 +158,19 @@
 2025-12-18 00:56:14,491 - INFO - Product retrieved successfully: {'name': 'Marc Burns DDS', 'price': 94.0, 'category': 'Accessories', 'stock': 95581, 'description': 'Line very every herself. Left soon rather kind provide see.', 'imageUrl': None, 'isActive': True, 'tags': [], 'rating': 0.0, 'id': 51, 'createdAt': '2024-01-15'}
 2025-12-18 00:56:14,499 - INFO - Product updated successfully
 2025-12-18 00:56:14,505 - INFO - Product deleted successfully
+2025-12-18 23:00:15,515 - INFO - Product created successfully
+2025-12-18 23:00:15,522 - INFO - Product retrieved successfully: {'name': 'Frank Boyle', 'price': 51.0, 'category': 'Smart Technologies', 'stock': 83125, 'description': 'Gas rule may hundred prepare fly.', 'imageUrl': None, 'isActive': True, 'tags': [], 'rating': 0.0, 'id': 8, 'createdAt': '2024-01-15'}
+2025-12-18 23:00:15,529 - INFO - Product updated successfully
+2025-12-18 23:00:15,535 - INFO - Product deleted successfully
+2025-12-18 23:05:01,984 - INFO - Product created successfully
+2025-12-18 23:05:01,987 - INFO - Product retrieved successfully: {'name': 'Carrie Wong', 'price': 13.0, 'category': 'Accessories', 'stock': 22275, 'description': 'Who down major final. Personal listen learn light night.', 'imageUrl': None, 'isActive': True, 'tags': [], 'rating': 0.0, 'id': 11, 'createdAt': '2024-01-15'}
+2025-12-18 23:05:01,994 - INFO - Product updated successfully
+2025-12-18 23:05:02,000 - INFO - Product deleted successfully
+2025-12-18 23:08:13,456 - INFO - Product created successfully
+2025-12-18 23:08:13,459 - INFO - Product retrieved successfully: {'name': 'Mary Clements', 'price': 95.0, 'category': 'Accessories', 'stock': 89888, 'description': 'Arm degree chair little past American when.', 'imageUrl': None, 'isActive': True, 'tags': [], 'rating': 0.0, 'id': 14, 'createdAt': '2024-01-15'}
+2025-12-18 23:08:13,466 - INFO - Product updated successfully
+2025-12-18 23:08:13,472 - INFO - Product deleted successfully
+2025-12-18 23:14:18,337 - INFO - Product created successfully
+2025-12-18 23:14:18,341 - INFO - Product retrieved successfully: {'name': 'Matthew Malone', 'price': 22.0, 'category': 'Accessories', 'stock': 84614, 'description': 'Service none rest fall fish go those peace.', 'imageUrl': None, 'isActive': True, 'tags': [], 'rating': 0.0, 'id': 17, 'createdAt': '2024-01-15'}
+2025-12-18 23:14:18,347 - INFO - Product updated successfully
+2025-12-18 23:14:18,352 - INFO - Product deleted successfully

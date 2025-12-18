@@ -218,3 +218,24 @@
 2025-12-18 00:56:13,920 - INFO - Cart with id retrieved successfully
 2025-12-18 00:56:13,931 - INFO - Cart with id deleted successfully
 2025-12-18 00:56:13,955 - INFO - Item added to cart successfully
+2025-12-18 23:00:15,002 - INFO - All Carts are fetched successfully
+2025-12-18 23:00:15,018 - INFO - New Cart created successfully
+2025-12-18 23:00:15,064 - INFO - Item added to cart successfully
+2025-12-18 23:05:01,458 - INFO - All Carts are fetched successfully
+2025-12-18 23:05:01,477 - INFO - Carts Schema Validated
+2025-12-18 23:05:01,492 - INFO - New Cart created successfully
+2025-12-18 23:05:01,501 - INFO - Cart with id retrieved successfully
+2025-12-18 23:05:01,511 - INFO - Cart with id deleted successfully
+2025-12-18 23:05:01,536 - INFO - Item added to cart successfully
+2025-12-18 23:08:12,892 - INFO - All Carts are fetched successfully
+2025-12-18 23:08:12,903 - INFO - Carts Schema Validated
+2025-12-18 23:08:12,916 - INFO - New Cart created successfully
+2025-12-18 23:08:12,926 - INFO - Cart with id retrieved successfully
+2025-12-18 23:08:12,936 - INFO - Cart with id deleted successfully
+2025-12-18 23:08:12,961 - INFO - Item added to cart successfully
+2025-12-18 23:14:17,824 - INFO - All Carts are fetched successfully
+2025-12-18 23:14:17,835 - INFO - Carts Schema Validated
+2025-12-18 23:14:17,848 - INFO - New Cart created successfully
+2025-12-18 23:14:17,857 - INFO - Cart with id retrieved successfully
+2025-12-18 23:14:17,865 - INFO - Cart with id deleted successfully
+2025-12-18 23:14:17,889 - INFO - Item added to cart successfully
