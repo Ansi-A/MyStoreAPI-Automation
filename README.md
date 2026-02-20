@@ -177,6 +177,21 @@ jsonpath-ng       # JSON parsing & assertions
 * CI/CD‑ready design
 * Covers CRUD + complex workflows
 
+Allure report screenshorts are here:
+  -1-
+  
+  <img width="1920" height="895" alt="image" src="https://github.com/user-attachments/assets/66f32225-0a55-4f63-b594-694250dd8f90" />
+
+  -2-
+
+  <img width="1920" height="895" alt="image" src="https://github.com/user-attachments/assets/eb25f0c0-759a-4370-a718-f512ba98988f" />
+
+  -3-
+
+  <img width="1920" height="895" alt="image" src="https://github.com/user-attachments/assets/0adb7240-1ab9-4441-8142-a3311e118672" />
+
+
+
 ---
 
 ## 🐳 Docker Command Reference
@@ -197,31 +212,22 @@ docker logs ecommerce_container
 # List running containers
 docker ps
 ```
-
 ---
-
-## 🎯 Why This Project Matters
 
 This project demonstrates:
 
-* ✅ Real backend API design
+
 * ✅ Dockerized production setup
 * ✅ Professional API automation
 * ✅ CI/CD‑ready testing strategy
-* ✅ Understanding of complete system workflows
-
-Perfect for:
-
-* Backend Internships
-* QA Automation Roles
-* DevOps‑aware API testing
+  
 
 ---
 
 ## 📫 Contact
 
 **Salman**
-QA Automation / Backend Enthusiast
+QA Automation
 
 * GitHub (Automation): [https://github.com/Ansi-A/MyStoreAPI-Automation](https://github.com/Ansi-A/MyStoreAPI-Automation)
 * GitHub (API): [https://github.com/salman415-462/dockerAPI](https://github.com/salman415-462/dockerAPI)
