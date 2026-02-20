@@ -1,8 +1,13 @@
-# 🛒 MyStoreAPI – FastAPI E‑Commerce Backend & Automation Framework
+# 🛒 MyStoreAPI – Production-Style E-Commerce Backend & API Automation Framework
 
-A **production‑style E‑Commerce REST API** built with **FastAPI** and a **complete QA automation framework** using **pytest + Allure**.
+ [![API Test Automation](https://github.com/Ansi-A/MyStoreAPI-Automation/actions/workflows/api-tests.yml/badge.svg)](https://github.com/Ansi-A/MyStoreAPI-Automation/actions/workflows/api-tests.yml)
+ 
+- Automated regression suite runs on every push using GitHub Actions.
 
-This project demonstrates **backend API development, Dockerization, API testing, and CI/CD‑ready automation**, making it ideal for **internships and junior backend / QA automation roles**.
+
+A realistic E-Commerce REST API system built with FastAPI and tested using a scalable, CI/CD-ready API automation framework powered by pytest + Allure.
+
+This project demonstrates backend development, API automation architecture, Docker containerization, and real-world QA engineering practices.
 
 ---
 
@@ -177,7 +182,9 @@ jsonpath-ng       # JSON parsing & assertions
 * CI/CD‑ready design
 * Covers CRUD + complex workflows
 
-Allure report screenshorts are here:
+📸 Allure Reporting (Sample)
+
+
   -1-
   
   <img width="1920" height="895" alt="image" src="https://github.com/user-attachments/assets/66f32225-0a55-4f63-b594-694250dd8f90" />
@@ -220,6 +227,7 @@ This project demonstrates:
 * ✅ Dockerized production setup
 * ✅ Professional API automation
 * ✅ CI/CD‑ready testing strategy
+  
   
 
 ---
